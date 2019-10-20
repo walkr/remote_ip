@@ -15,7 +15,7 @@ defmodule RemoteIp.Mixfile do
 
   def application do
     [
-      extra_applications: [:logger]
+      extra_applications: [:combine, :inet_cidr]
     ]
   end
 
